@@ -1,0 +1,128 @@
+name: medical_cliniv_v2
+description: "A new Flutter project."
+
+publish_to: "none" 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  #State Management 
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  provider: ^6.1.2
+
+  #Google
+  firebase_core: ^3.3.0
+  cloud_firestore: ^5.2.1
+  google_fonts: ^6.2.1
+  equatable: ^2.0.5
+
+  #Data
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+  #UI
+  shimmer: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.1
+
+  #Connectivity
+  connectivity_plus: ^6.0.5
+
+  #Image
+  image_picker: ^1.1.2
+
+  #Google
+  google_maps_flutter: ^2.9.0
+  geolocator: ^13.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  hive_generator: ^2.0.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/image/genel/medical_clinic_appicon_v2.png"
+  min_sdk_version: 21 # android min sdk min:16, default: 21
+  remove_aplha_ios: true
+
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/image/doc/
+    - assets/image/news/news1.jpg
+    - assets/image/news/news2.jpg
+    - assets/image/news/news3.jpg
+    - assets/image/news/news4.jpg
+    - assets/image/genel/appicon.png
+    - assets/image/genel/medical_clinic_appicon_v2.png
+    - assets/image/genel/medical_clinic_nativ_splah_image.png
+    - assets/image/app_icon/
+    - assets/image/app_icon/defaul_users_photo.png
+    
+    
+
+
+flutter_native_splash:
+  color: "#42a5f5"
+  
+
+  # From Android 12 onwards, the splash screen is handled differently than in previous versions.
+  # Please visit https://developer.android.com/guide/topics/ui/splash-screen
+  # Following are specific parameters for Android 12+.
+  android_12:
+    # The image parameter sets the splash screen icon image.  If this parameter is not specified,
+    # the app's launcher icon will be used instead.
+    # Please note that the splash screen will be clipped to a circle on the center of the screen.
+    # App icon with an icon background: This should be 960×960 pixels, and fit within a circle
+    # 640 pixels in diameter.
+    # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
+    # 768 pixels in diameter.
+    image: assets/image/genel/medical_clinic_nativ_splah_image.png
+    # Splash screen background color.
+    color: "#eeeeee"
+    # App icon background color.
+    #icon_background_color: "#111111"
+    #branding: assets/dart.png
+    #image_dark: assets/android12splash-invert.png
+    #color_dark: "#042a49"
+    #icon_background_color_dark: "#eeeeee"
+
+  # The android, ios and web parameters can be used to disable generating a splash screen on a given
+  # platform.
+  android: true
+  ios: false
+  web: false
+
+  # Platform specific images can be specified with the following parameters, which will override
+  # the respective parameter.  You may specify all, selected, or none of these parameters:
+  #color_android: "#42a5f5"
+  #color_dark_android: "#042a49"
+  image_android: assets/image/genel/medical_clinic_nativ_splah_image.png
+  #image_dark_android: assets/splash-invert-android.png
+  #background_image_android: "assets/background-android.png"
+  #background_image_dark_android: "assets/dark-background-android.png"
+  #branding_android: assets/brand-android.png
+  #branding_bottom_padding_android: 24
+  #branding_dark_android: assets/dart_dark-android.png
+  #branding_ios: assets/brand-ios.png
+  #branding_bottom_padding_ios: 24
