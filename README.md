@@ -27,3 +27,6 @@ Datalar firebase ten çekilip bloc ile uygulamaya enjekte ediliyor.Profil resmi 
     <img src="https://github.com/user-attachments/assets/fbb4fcbb-9b72-4991-bc40-5f69bcbb4410" alt="appimage2" width="200" style="margin-bottom: 10px;" />
     <img src="https://github.com/user-attachments/assets/f8a3c2cb-d554-4092-9368-cb50ce480438" alt="appimage3" width="200" />
 </div>
+
+
+Ancak projeyi geliştirmeyi bıraktım,eksiklerimi ve yeni öğrendiklerimi faklı bir uygulamada kullanıp yeniden yayınlayacağım.Herkese kolay gelsin.
